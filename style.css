@@ -8,7 +8,7 @@ h1{
 .changeit{
     color: red;
 }
-section{
+.flex{
     display: flex;
     margin-bottom: 150px;
 }
@@ -32,6 +32,44 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.banner2{
+.yoyo{
     background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.yo{
+    color: brown;
+}
+.yo1{
+    color: brown;
+}
+.change{
+    width: 50%;
+    padding-left: 15px;
+    box-shadow: 10px 0px 20px teal;
+   margin-left: 5%;
+   margin-right: 5%;
+   
+}
+.banner3{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#second{
+    border-image: linear-gradient(blue,green);
+    border-image-slice: 1;
+    border-left: 10px solid;
+    border-top-right-radius: 10px;
+}
+#first{
+    border-image: linear-gradient(salmon,orange);
+    border-image-slice: 1;
+    border-left: 10px solid;
+    border-top-right-radius: 10px;
+}
+footer p{
+    color: black;
+    
+    text-align: center;
 }
